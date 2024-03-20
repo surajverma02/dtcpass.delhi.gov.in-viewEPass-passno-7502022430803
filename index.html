@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home | e-Bus Pass</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .dtc{
+            width: 100%;
+            height: auto;
+        }
+        .dtc_img{
+            width: 100%;
+            height: auto;
+        }
+        .text{
+            color: #2b9e19;
+            font-size: 20px;
+            font-weight: 700;
+            font-family:sans-serif;
+        }
+        .blink {
+            animation: blink 1s steps(1, end) infinite;
+        }
+        .position{
+            position: absolute;
+            top: 55%;
+            left: 47%;
+        }
+        @keyframes blink {
+            0% {
+              opacity: 1;
+            }
+            50% {
+              opacity: 0;
+            }
+            100% {
+              opacity: 1;
+            }
+        }
+    </style>
+</head>
+<body>
+    <a href="https://dtcpass.delhi.gov.in/home.jsp">
+        <div class="dtc">
+            <p class="blink text position">7502022430803</p>
+            <img src="25.png" alt="dtc" class="dtc_img">
+        </div>
+    </a>
+</body>
+</html>
